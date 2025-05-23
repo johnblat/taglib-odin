@@ -7,7 +7,7 @@ when ODIN_OS == .Windows {
         "windows/tag_c.lib",
         "windows/zlib.lib",
 	}
-    // Please create Linux and Mac builds of taglib and import libs here
+    // Linux and Mac builds of taglib and import libs here
 }
 
 TagLib_File            :: struct { dummy: int }
